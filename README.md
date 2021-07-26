@@ -1,6 +1,6 @@
 # list_set_map
 
-#Шаблонный тип двунаправленный список myList <br />
+# Шаблонный тип двунаправленный список myList <br />
 Внутри реализован класс двунаправленного итератора
 для работы myList с алгоритмами из STL. <br />
 Реализованные функции: <br />
@@ -13,7 +13,7 @@ myIterator find(const T& value); <br />
 template <typename T> <br />
 ostream& operator<<(ostream &out, const myList<T> &l);
 
-#Шаблонный тип упорядоченного множества mySet <br />реализован на основе
+# Шаблонный тип упорядоченного множества mySet <br />реализован на основе
 myList<T> <br />
 Реализованные функции: <br />
 void insert(const T& value); <br />
@@ -25,7 +25,7 @@ size_t size(); <br />
 template <typename T>
 ostream& operator<<(ostream& out, const mySet<T>& s) <br />
 
-#Шаблонный тип myMap <br /> реализован на основе mySet<pair<K, V> > <br />
+# Шаблонный тип myMap <br /> реализован на основе mySet<pair<K, V> > <br />
 Реализованные функции: <br />
 void insert(const K& key, const V& value); <br />
 V& operator[](const K& key); <br />
